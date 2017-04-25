@@ -15,6 +15,11 @@
         <img class="media-object" src="<?= h($service->image_url) ?>" width="300px">
       </div>
       <div class="media-body">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
         <h5>Posted by: <a href="#"><?php
           if ($this->request->session()->read('Auth.User')) { ?>
             <?= $this->request->session()->read('Auth.User.username') ?>
@@ -58,7 +63,12 @@
         <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+        <h5>Review by:  <a href="#">username</a></h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
@@ -75,7 +85,12 @@
         <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <h5>Review by:  <a href="#">username</a></h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
@@ -92,7 +107,12 @@
         <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+        <h5>Review by:  <a href="#">username</a></h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
@@ -109,7 +129,12 @@
         <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <h5>Review by:  <a href="#">username</a></h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
