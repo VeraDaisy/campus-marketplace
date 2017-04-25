@@ -16,10 +16,9 @@
       </div>
       <div class="media-body">
         <h5>Posted by: <a href="#"><?php
-          if ($this->request->session()->read('Auth.User')) { ?>
-            <?= $this->request->session()->read('Auth.User.username') ?>
-          <?php } ?>
-   </a>
+         echo  h($service->user_id);
+          ?>
+        </a>
         <p><?= h($service->description) ?>
         </p>
         <p><strong>Minimum Bid:</strong> $<?= h($service->min_price) ?></p>
@@ -55,11 +54,11 @@
     <!-- Begin reviews listing section -->
     <div class="media">
       <div class="media-left">
-        <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
+        <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
+        <h5>Review by:  <a href="#">monicaw8</a></h5>
+        <p>Great customer service.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
           <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 200
@@ -72,11 +71,11 @@
 
     <div class="media">
       <div class="media-left">
-        <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
+        <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
+        <h5>Review by:  <a href="#">jane</a></h5>
+        <p>Cheap and affordable - I got exactly what I needed! 10/10 ighly recommend.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
           <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 1000
@@ -89,34 +88,34 @@
 
     <div class="media">
       <div class="media-left">
-        <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
+        <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
+        <h5>Review by:  <a href="#">chris</a></h5>
+        <p>Tiffany was so nice and helpful. She is definitely reliable!
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
-          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 1000
+          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 60
         </button>
         <button title="Message seller" type="button" class="btn btn-default btn-xs">
-          <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 291
+          <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 1
         </button>
       </div>
     </div>
 
     <div class="media">
       <div class="media-left">
-        <img class="media-object" src="<?= BASE_URL ?>/img/default-service.jpg" width="80px">
+        <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">Seller-Name</a></h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales libero id est tempor aliquam. Nunc et fringilla massa. Vivamus et massa urna. Vivamus nisi sapien, tristique sit amet ex at, tempus vestibulum lacus. Curabitur interdum viverra tristique. Nam egestas, metus consectetur faucibus tristique, lacus tellus pharetra sem, ut rutrum nibh augue quis dui.
+        <h5>Review by:  <a href="#">hokie123</a></h5>
+        <p>Great food and great company. I will definitely come back.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
-          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 1000
+          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 20
         </button>
         <button title="Message seller" type="button" class="btn btn-default btn-xs">
-          <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 291
+          <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 3
         </button>
       </div>
     </div>

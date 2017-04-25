@@ -64,6 +64,8 @@ class ServicesController extends AppController
 
     $this->set('service', $service);
     $this->set('_serialize', ['service']);
+
+
   }
   /**
   * Add method
@@ -136,9 +138,13 @@ class ServicesController extends AppController
     return $this->exists(['id' => $serviceId, 'user_id' => $userId]);
   }
 
-  public function getUsername()
+  public function getUsername($user_id)
   {
-    return $user->$username;
+     //// $userid = h($service->user_id);
+         //   echo $userid;
+           $query = $this->Services->Users->find('first', array(
+        'conditions' => array('users.user_id' => $userid)));
+    return $query->$username;
   }
 
   /**
