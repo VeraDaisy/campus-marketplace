@@ -17,7 +17,7 @@
     <fieldset>
         <legend><?= __('Add Service') ?></legend>
         <?php
-            echo $this->Form->control('user_id', ['options' => $users]);
+            //echo $this->Form->control('user_id', ['options' => $users]);
             echo $this->Form->control('title', array('placeholder' => 'Enter service title'));
             // echo $this->Form->control('rating_point', array('placeholder' => 'Enter first name'));
             // echo $this->Form->control('rating_number', array('placeholder' => 'Enter first name'));

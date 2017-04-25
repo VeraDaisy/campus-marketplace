@@ -13,13 +13,35 @@
 </nav> -->
 <!-- <div class="services index large-9 medium-8 columns content"> -->
 <div class="container content-centered">
+<div class="container content-centered">
+    <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+             <?php
+              if ($this->request->session()->read('Auth.User')) { ?>
+                <h2>Welcome, <?= $this->request->session()->read('Auth.User.first_name') ?>!</h2>
+              <?php } ?>
+              <div id="imaginary_container">
 
-  <?php
-  if ($this->request->session()->read('Auth.User')) { ?>
-    <h3>Welcome, <?= $this->request->session()->read('Auth.User.first_name') ?>!</h3>
-  <?php } ?>
+                  <div class="input-group stylish-input-group">
+                      <input type="text" class="form-control"  placeholder="search for services" >
+                      <span class="input-group-addon">
+                          <button type="submit">
+                              <span class="glyphicon glyphicon-search"></span>
+                          </button>
+                      </span>
+                  </div>
+              </div>
+          </div>
+    </div>
+    <div class="row">
+      <br>
+      Don't know what you're looking for?
+      <br>
+      <a href="#">Click here to browse by category</a>
+    </div>
 
-
+  </div>
+<br><br>
   <h2>Saved Items</h2>
   <div class="row">
     <div class="col-md-12">
@@ -75,15 +97,15 @@
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 deal deal-block">
         <div class="item-slide">
           <div class="box-img">
-            <img src="<?= h($service->image_url) ?>" alt="dasdas"/>
+            <img src="<?= h($service->image_url) ?>" alt="dasdas" style="width:300px;height:200px;overflow:hidden"/>
             <div class="text-wrap">
               <h4><?= h($service->title) ?></h4>
-              <div class="desc">
+              
                 <h3>$<?= $this->Number->format($service->min_price) ?></h3>
-              </div>
-              <div class="book-now-c">
+              
+              <!-- <div class="book-now-c">
                 <a href="#!/detailed">See More</a>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="slide-hover">
@@ -94,7 +116,8 @@
                 <h3>$<?= $this->Number->format($service->min_price) ?></h3>
               </div>
               <div class="book-now-c">
-                <a href="#!/detailed">See More</a>
+                <a href="<?= BASE_URL ?>/services/detailed/<?= $this->Number->format($service->id) ?>">See More</a>
+                <!-- <a href="#!/detailed">See More</a> -->
               </div>
             </div>
           </div>

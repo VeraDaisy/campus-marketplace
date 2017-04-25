@@ -29,7 +29,7 @@ if (!defined('DS')) {
  * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
 define('ROOT', dirname(__DIR__));
-define("BASE_URL", "http://localhost/campus-marketplace/campus-marketplace");
+define("BASE_URL", "http://localhost/campus-marketplace");
 
 /**
  * The actual directory name for the application directory. Normally

@@ -39,7 +39,7 @@ class ServicesController extends AppController
   * @return \Cake\Network\Response|null
   * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
   */
-  public function view($id = null)
+  public function view($id)
   {
     $service = $this->Services->get($id, [
       'contain' => ['Users']
@@ -49,6 +49,22 @@ class ServicesController extends AppController
     $this->set('_serialize', ['service']);
   }
 
+
+/**
+* Detailed service view
+  * @param string|null $id Service id.
+  * @return \Cake\Network\Response|null
+  * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+*/
+  public function detailed($id)
+  {
+    $service = $this->Services->get($id, [
+      'contain' => ['Users']
+      ]);
+
+    $this->set('service', $service);
+    $this->set('_serialize', ['service']);
+  }
   /**
   * Add method
   *
@@ -59,10 +75,10 @@ class ServicesController extends AppController
     $service = $this->Services->newEntity();
     if ($this->request->is('post')) {
       $service = $this->Services->patchEntity($service, $this->request->getData());
-
+      //echo $service;
       // Get currently logged in user
       $service->user_id = $this->Auth->user('id');
-
+      echo $service->user_id;
       if ($this->Services->save($service)) {
         $this->Flash->success(__('The service has been saved.'));
         return $this->redirect(['action' => 'index']);
@@ -118,6 +134,11 @@ class ServicesController extends AppController
   public function isOwnedBy($serviceId, $userId)
   {
     return $this->exists(['id' => $serviceId, 'user_id' => $userId]);
+  }
+
+  public function getUsername()
+  {
+    return $user->$username;
   }
 
   /**
