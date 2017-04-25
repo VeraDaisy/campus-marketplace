@@ -15,6 +15,11 @@
         <img class="media-object" src="<?= h($service->image_url) ?>" width="300px">
       </div>
       <div class="media-body">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
         <h5>Posted by: <a href="#"><?php
          echo  h($service->user_id);
           ?>
@@ -57,7 +62,12 @@
         <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
-        <h5>Review by:  <a href="#">monicaw8</a></h5>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+         <h5>Review by:  <a href="#">monicaw8</a></h5>
         <p>Great customer service.
         </p>
         <button title="Upvote" type="button" class="btn btn-default btn-xs">
@@ -74,6 +84,11 @@
         <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         <h5>Review by:  <a href="#">jane</a></h5>
         <p>Cheap and affordable - I got exactly what I needed! 10/10 ighly recommend.
         </p>
@@ -91,6 +106,11 @@
         <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
         <h5>Review by:  <a href="#">chris</a></h5>
         <p>Tiffany was so nice and helpful. She is definitely reliable!
         </p>
@@ -108,6 +128,11 @@
         <img class="media-object" src="<?= BASE_URL ?>/webroot/img/default-user-image.png" width="80px">
       </div>
       <div class="media-body">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         <h5>Review by:  <a href="#">hokie123</a></h5>
         <p>Great food and great company. I will definitely come back.
         </p>
@@ -123,4 +148,3 @@
 
   </div>
   <!-- End container -->
-
