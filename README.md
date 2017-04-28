@@ -17,6 +17,7 @@ organize tasks and responsibilities, we each have roles that we oversee.
 * Design Lead, Back-end Lead: [Tiffany Tran][veradaisy]
 * Front-end Lead: [Monica Wei][monicawei]
 * Developer: [Willem Schmidt][schmidtwh]
+* UI/UX, Wireframes: Charlene Lertlumprasert
 
 ## Project Awards
 
