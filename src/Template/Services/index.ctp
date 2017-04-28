@@ -37,7 +37,7 @@
       <br>
       Don't know what you're looking for?
       <br>
-      <a href="#">Click here to browse by category</a>
+      <a href="<?= BASE_URL ?>/services/browse">Click here to browse by category</a>
     </div>
 
   </div>
@@ -100,9 +100,9 @@
             <img src="<?= h($service->image_url) ?>" alt="dasdas" style="width:300px;height:200px;overflow:hidden"/>
             <div class="text-wrap">
               <h4><?= h($service->title) ?></h4>
-              
+
                 <h3>$<?= $this->Number->format($service->min_price) ?></h3>
-              
+
               <!-- <div class="book-now-c">
                 <a href="#!/detailed">See More</a>
               </div> -->

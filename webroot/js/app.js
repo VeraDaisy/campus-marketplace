@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   learnMoreSmoothScroll();
-
+  browseResults();
 });
 
 /*
@@ -17,5 +17,20 @@ function learnMoreSmoothScroll() {
     $('html, body').animate({
         scrollTop: $("#anchor-about").offset().top
     }, 1000);
+  });
+}
+
+/*
+* -----------------------------------------------------------------------
+* Browse hide results
+* -----------------------------------------------------------------------
+*/
+function browseResults() {
+  if (!$('#browse-results').length) { return; }
+  $("#browse-results").hide();
+
+  var link = document.getElementById('beauty-link');
+  link.addEventListener('click', function() {
+    $("#browse-results").toggle();
   });
 }

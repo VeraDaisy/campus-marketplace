@@ -249,3 +249,12 @@ background: #428bca;
     visibility: visible;
     opacity: 1;
 }
+
+.container-colored {
+  width: 100%;
+  background-color: #A9B5BF;
+  min-height: 150px;
+}
+.col-height {
+  padding: 10px;
+}
