@@ -16,7 +16,7 @@ organize tasks and responsibilities, we each have roles that we oversee.
 * Project Manager: Ishita Ganotra
 * Design Lead, Back-end Lead: [Tiffany Tran][veradaisy]
 * Front-end Lead: [Monica Wei][monicawei]
-* Developer: [Willem Schmidt][schmitwh]
+* Developer: [Willem Schmidt][schmidtwh]
 
 ## Project Awards
 
