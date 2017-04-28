@@ -1,52 +1,32 @@
-# CakePHP Application Skeleton
+# `campus-marketplace` — HCI Senior Capstone Project
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+[Campus Marketplace][cm] is a web app for students to purchase/sell services
+to other students.
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+## Technologies
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+The web app uses CakePHP, Bootstrap, HTML, CSS, Javascript, and
+JQuery.
 
-## Installation
+## Team Roles
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+Every one of us participates in all aspects of the project, but in order to
+organize tasks and responsibilities, we each have roles that we oversee.
 
-If Composer is installed globally, run
+* Project Manager: Ishita Ganotra
+* Design Lead, Back-end Lead: [Tiffany Tran][veradaisy]
+* Front-end Lead: [Monica Wei][monicawei]
+* Developer: [Willem Schmidt][schmitwh]
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+## Project Awards
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+We are very proud of what we have accomplished this semester with this project idea. Thank you to our advisor, Dr. Andrea Kavanaugh, and everyone who came out and supported us at the [VTURCS][vturcs] fair.
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+* 2nd Place in the People's Choice Category
+* 3rd Place in the Industry Choice/Marston Award
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
-# campus-marketplace
+[cm]: http://mylamplighters.com/campus-marketplace/
+[veradaisy]: https://github.com/VeraDaisy
+[monicawei]: https://github.com/monicawei
+[schmidtwh]: https://github.com/schmidtwh
+[vturcs]: http://www.vturcs.cs.vt.edu/
